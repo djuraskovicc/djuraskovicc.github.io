@@ -1,0 +1,39 @@
+
+@font-face{
+  font-family: PoppinsRegular;
+  src: url("../fonts/Poppins-Regular.ttf");
+}
+
+@font-face{
+  font-family: PoppinsBold;
+  src: url("../fonts/Poppins-Bold.ttf");
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-family: PoppinsRegular;
+  text-align: center;
+}
+
+.scale{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.my-button{
+  font-size: 20px;
+  font-family: PoppinsBold;
+  text-decoration: none;
+  color: black;
+  background-color: white; 
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.my-button:active{
+  background-color: lightgray;  
+}
